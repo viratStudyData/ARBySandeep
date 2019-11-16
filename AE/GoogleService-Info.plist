@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>662658304002-uf69606g7s84hg39brr02r72ntbmhqdj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.662658304002-uf69606g7s84hg39brr02r72ntbmhqdj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCG2aoy4O4neJulstoFdIiYqXuugJkkYQ0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>662658304002</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.augmentedExperience.app</string>
+	<key>PROJECT_ID</key>
+	<string>augmented-experi-1557204348000</string>
+	<key>STORAGE_BUCKET</key>
+	<string>augmented-experi-1557204348000.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:662658304002:ios:ad614bd419bd4a99</string>
+	<key>DATABASE_URL</key>
+	<string>https://augmented-experi-1557204348000.firebaseio.com</string>
+</dict>
+</plist>

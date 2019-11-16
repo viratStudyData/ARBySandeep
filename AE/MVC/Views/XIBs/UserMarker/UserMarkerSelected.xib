@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserMarkerSelected" customModule="AE" customModuleProvider="target">
+            <connections>
+                <outlet property="imgUser" destination="Cjy-5N-wGB" id="VEM-3y-ZBM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="92" height="93"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_friend_location_red" translatesAutoresizingMaskIntoConstraints="NO" id="SIw-PA-0lp">
+                    <rect key="frame" x="0.0" y="0.0" width="92" height="93"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cjy-5N-wGB">
+                    <rect key="frame" x="24" y="7" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="Rgb-V6-npf"/>
+                        <constraint firstAttribute="height" constant="44" id="SGZ-Ly-3yJ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" name="backgroundWhite"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SIw-PA-0lp" secondAttribute="trailing" id="0y5-ep-igb"/>
+                <constraint firstItem="Cjy-5N-wGB" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="7" id="FKq-aw-9zz"/>
+                <constraint firstItem="SIw-PA-0lp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="QCX-c5-EDL"/>
+                <constraint firstItem="Cjy-5N-wGB" firstAttribute="centerX" secondItem="SIw-PA-0lp" secondAttribute="centerX" id="WfU-7U-mLY"/>
+                <constraint firstItem="SIw-PA-0lp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bVx-Km-Aus"/>
+                <constraint firstAttribute="bottom" secondItem="SIw-PA-0lp" secondAttribute="bottom" id="zJp-a3-zyl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-4.7999999999999998" y="288.30584707646182"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_friend_location_red" width="96" height="96"/>
+        <namedColor name="backgroundWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

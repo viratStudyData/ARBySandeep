@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="InviteTVHeader" customModule="AE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="71"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E0a-ba-yCb">
+                    <rect key="frame" x="0.0" y="8" width="344" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="90q-QR-Fbe"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suggested Businesses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8k-sX-kRj">
+                    <rect key="frame" x="24" y="29" width="296" height="21.5"/>
+                    <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="18"/>
+                    <color key="textColor" name="textBlack"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="E0a-ba-yCb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="9L9-6w-Wwh"/>
+                <constraint firstItem="G8k-sX-kRj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="AcP-iS-op6"/>
+                <constraint firstItem="G8k-sX-kRj" firstAttribute="top" secondItem="E0a-ba-yCb" secondAttribute="bottom" constant="20" id="Ejn-64-8gO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="E0a-ba-yCb" secondAttribute="trailing" id="cIu-dS-ijh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="G8k-sX-kRj" secondAttribute="trailing" constant="24" id="h6Y-hp-4TH"/>
+                <constraint firstItem="E0a-ba-yCb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="n1e-3B-vWn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="lblTitle" destination="G8k-sX-kRj" id="xX8-53-Yeu"/>
+            </connections>
+            <point key="canvasLocation" x="107.2" y="226.23688155922042"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="textBlack">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

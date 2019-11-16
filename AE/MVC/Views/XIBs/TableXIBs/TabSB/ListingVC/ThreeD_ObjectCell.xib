@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Bold.otf">
+            <string>SFProText-Bold</string>
+        </array>
+        <array key="SF-Pro-Text-Medium.otf">
+            <string>SFProText-Medium</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ThreeD_ObjectCell" rowHeight="126" id="KGk-i7-Jjw" customClass="ThreeD_ObjectCell" customModule="AE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="537" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="537" height="125.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tesla Model 3 : Black" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xai-MS-kzl">
+                        <rect key="frame" x="120" y="24" width="393" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="iHp-Np-fPm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Bold" family="SF Pro Text" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radius : 2 miles " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUN-34-d8m">
+                        <rect key="frame" x="120" y="84.5" width="94" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="OEx-BV-DWX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ltk-YQ-yTE">
+                        <rect key="frame" x="24" y="24" width="84" height="77.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" name="textBlack"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.29999999999999999"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CCZ-Qq-3XJ">
+                        <rect key="frame" x="24" y="24" width="84" height="77.5"/>
+                        <color key="backgroundColor" name="buttonBlue"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="CCZ-Qq-3XJ" secondAttribute="height" multiplier="104:96" id="O1V-zm-EcP"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgN-wq-Ly3">
+                        <rect key="frame" x="120" y="43" width="393" height="37.5"/>
+                        <string key="text">Marketers/advertisers usually focus their efforts on the people responsible for making the purchase. In many cases, this is an effective approach but in other cases it can make for a totally useless marketing campaign.</string>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                        <color key="textColor" name="textBlack40"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="pqA-zM-xvQ">
+                        <rect key="frame" x="489" y="83" width="20" height="20"/>
+                        <color key="color" name="buttonBlue"/>
+                    </activityIndicatorView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8k0-u3-H1e" customClass="NFDownloadButton" customModule="NFDownloadButton">
+                        <rect key="frame" x="489" y="81" width="48" height="24"/>
+                        <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="24" maxY="0.0"/>
+                        <state key="normal" image="ic_download_blue"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="exclusiveTouchEnabled" value="YES"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isDownloaded" value="NO"/>
+                            <userDefinedRuntimeAttribute type="color" keyPath="buttonBackgroundColor">
+                                <color key="value" name="buttonBlue"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="initialColor">
+                                <color key="value" name="backgroundWhite"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="rippleColor">
+                                <color key="value" name="backgroundWhite"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="downloadColor">
+                                <color key="value" name="backgroundWhite"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="deviceColor">
+                                <color key="value" name="backgroundWhite"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aH4-96-Ak2">
+                        <rect key="frame" x="0.0" y="124" width="537" height="2.5"/>
+                        <color key="tintColor" name="buttonBlue"/>
+                        <color key="progressTintColor" name="buttonBlue"/>
+                        <color key="trackTintColor" red="0.24313725490196078" green="0.71764705882352942" blue="0.92941176470588238" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    </progressView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ltk-YQ-yTE" firstAttribute="top" secondItem="CCZ-Qq-3XJ" secondAttribute="top" id="135-Sd-Cee"/>
+                    <constraint firstItem="ltk-YQ-yTE" firstAttribute="leading" secondItem="CCZ-Qq-3XJ" secondAttribute="leading" id="1QC-ty-wSM"/>
+                    <constraint firstAttribute="trailing" secondItem="8k0-u3-H1e" secondAttribute="trailing" id="3Ju-Zd-1Ci"/>
+                    <constraint firstItem="Xai-MS-kzl" firstAttribute="leading" secondItem="CCZ-Qq-3XJ" secondAttribute="trailing" constant="12" id="78g-Jp-p2Y"/>
+                    <constraint firstItem="ltk-YQ-yTE" firstAttribute="bottom" secondItem="CCZ-Qq-3XJ" secondAttribute="bottom" id="8i6-Eb-Dc5"/>
+                    <constraint firstItem="pgN-wq-Ly3" firstAttribute="leading" secondItem="Xai-MS-kzl" secondAttribute="leading" id="9yX-DZ-JPc"/>
+                    <constraint firstItem="lUN-34-d8m" firstAttribute="bottom" secondItem="CCZ-Qq-3XJ" secondAttribute="bottom" id="GLc-UM-WQZ"/>
+                    <constraint firstItem="Xai-MS-kzl" firstAttribute="top" secondItem="CCZ-Qq-3XJ" secondAttribute="top" id="Gw0-3l-nRs"/>
+                    <constraint firstAttribute="trailing" secondItem="Xai-MS-kzl" secondAttribute="trailing" constant="24" id="IWk-sw-ocl"/>
+                    <constraint firstAttribute="bottom" secondItem="aH4-96-Ak2" secondAttribute="bottom" id="LGH-ck-6r7"/>
+                    <constraint firstAttribute="trailing" secondItem="aH4-96-Ak2" secondAttribute="trailing" id="LaJ-wZ-IB5"/>
+                    <constraint firstItem="8k0-u3-H1e" firstAttribute="centerY" secondItem="lUN-34-d8m" secondAttribute="centerY" id="V9V-O1-ibs"/>
+                    <constraint firstItem="lUN-34-d8m" firstAttribute="leading" secondItem="Xai-MS-kzl" secondAttribute="leading" id="VJv-Qu-sv3"/>
+                    <constraint firstItem="pqA-zM-xvQ" firstAttribute="leading" secondItem="8k0-u3-H1e" secondAttribute="leading" id="VsF-Zy-Ozg"/>
+                    <constraint firstItem="CCZ-Qq-3XJ" firstAttribute="width" secondItem="CCZ-Qq-3XJ" secondAttribute="height" multiplier="104:96" id="VsP-WN-OLe"/>
+                    <constraint firstItem="pgN-wq-Ly3" firstAttribute="trailing" secondItem="Xai-MS-kzl" secondAttribute="trailing" id="av6-YG-Tq6"/>
+                    <constraint firstItem="lUN-34-d8m" firstAttribute="top" secondItem="pgN-wq-Ly3" secondAttribute="bottom" constant="4" id="bUd-N1-lRb"/>
+                    <constraint firstItem="ltk-YQ-yTE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="bfK-AZ-khd"/>
+                    <constraint firstItem="ltk-YQ-yTE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="24" id="dbs-CV-QQW"/>
+                    <constraint firstItem="aH4-96-Ak2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mP5-3r-yPO"/>
+                    <constraint firstItem="pqA-zM-xvQ" firstAttribute="centerY" secondItem="8k0-u3-H1e" secondAttribute="centerY" id="rUh-a5-gnl"/>
+                    <constraint firstItem="pgN-wq-Ly3" firstAttribute="top" secondItem="Xai-MS-kzl" secondAttribute="bottom" constant="2" id="tj9-lH-0uS"/>
+                    <constraint firstItem="ltk-YQ-yTE" firstAttribute="trailing" secondItem="CCZ-Qq-3XJ" secondAttribute="trailing" id="wlJ-v8-6zx"/>
+                    <constraint firstAttribute="bottom" secondItem="ltk-YQ-yTE" secondAttribute="bottom" constant="24" id="zMc-qp-lA9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="activityIndicator" destination="pqA-zM-xvQ" id="FS3-rO-VIH"/>
+                <outlet property="btnDownload" destination="8k0-u3-H1e" id="PLP-Gh-Kog"/>
+                <outlet property="imgView" destination="CCZ-Qq-3XJ" id="lzG-qO-nHV"/>
+                <outlet property="lblDesc" destination="pgN-wq-Ly3" id="dQH-oq-GdL"/>
+                <outlet property="lblRadius" destination="lUN-34-d8m" id="L0l-c2-OVr"/>
+                <outlet property="lblTitle" destination="Xai-MS-kzl" id="0eC-JQ-yGa"/>
+                <outlet property="progressView" destination="aH4-96-Ak2" id="1YO-2O-aFY"/>
+            </connections>
+            <point key="canvasLocation" x="232.80000000000001" y="60.26986506746627"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_download_blue" width="24" height="24"/>
+        <namedColor name="backgroundWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="buttonBlue">
+            <color red="0.24313725490196078" green="0.71764705882352942" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textBlack">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textBlack40">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

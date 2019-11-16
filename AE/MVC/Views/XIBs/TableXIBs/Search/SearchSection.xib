@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="SearchSection" customModule="AE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="52"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aCa-Av-D6P">
+                    <rect key="frame" x="0.0" y="0.0" width="363" height="52"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="LE9-yw-IGU">
+                        <rect key="frame" x="0.0" y="0.0" width="363" height="52"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="extraLight"/>
+                </visualEffectView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HxW-zR-OdO">
+                    <rect key="frame" x="24" y="0.0" width="315" height="52"/>
+                    <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aCa-Av-D6P" secondAttribute="trailing" id="5Wy-8u-Fv2"/>
+                <constraint firstItem="aCa-Av-D6P" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="IQ8-9m-EB4"/>
+                <constraint firstAttribute="bottom" secondItem="aCa-Av-D6P" secondAttribute="bottom" id="Rxv-TK-W1V"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="HxW-zR-OdO" secondAttribute="trailing" constant="24" id="ih3-5o-G0n"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="HxW-zR-OdO" secondAttribute="bottom" id="ljZ-gn-bb2"/>
+                <constraint firstItem="aCa-Av-D6P" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oqv-TH-6Tq"/>
+                <constraint firstItem="HxW-zR-OdO" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="saI-sQ-nGJ"/>
+                <constraint firstItem="HxW-zR-OdO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="tpK-nw-8gf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="lblTitle" destination="HxW-zR-OdO" id="UFz-bN-8Tu"/>
+            </connections>
+            <point key="canvasLocation" x="143.19999999999999" y="197.9010494752624"/>
+        </view>
+    </objects>
+</document>

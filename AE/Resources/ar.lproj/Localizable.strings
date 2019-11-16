@@ -1,0 +1,160 @@
+/*
+ Localizable.strings
+ AE
+ 
+ Created by MAC_MINI_6 on 28/03/19.
+ Copyright © 2019 MAC_MINI_6. All rights reserved.
+ */
+
+"TERMS_START" = "By signing in you agree to our ";
+"TERMS_END" = "Terms and Conditions";
+"INVITE_FRIEND_TAB_1" = "Contacts";
+"INVITE_FRIEND_TAB_2" = "Facebook";
+
+"EMPTY_EMAIL_PHONE" = "Please enter email or phone number";
+"EMPTY_EMAIL" = "Please enter email";
+"EMPTY_PHONE" = "Please enter phone number";
+"EMPTY_CONTACT_US" = "Please enter a message first";
+"INVALID_EMAIL" = "Please enter a valid email";
+"INVALID_PHONE" = "Phone number must be at least 5-15 digits";
+
+"EMPTY_PASSWORD" = "Please enter your password";
+"INVALID_PASSWORD" = "Password length must at least 6 characters long";
+
+"EMPTY_CONFIRM_PASSWORD" = "Please confirm password";
+"INVALID_CONFIRM_PASSWORD" = "Confirm password length must at least 6 characters long";
+"PASSWORD_NOT_MATCH" = "Password and confirm password doesn't match";
+
+"EMPTY_NAME" = "Please enter your name";
+"INVALID_NAME" = "Please enter valid name";
+"INVALID_EMAIL_PHONE" = "Please enter valid email or phone number";
+
+"EMPTY_CURRENT_PSW" = "Please enter your current password";
+"EMPTY_NEW_PSW" = "Please enter a new password";
+"INVALID_CURRENT_PSW" = "Please enter valid current password";
+"INVALID_NEW_PSW" = "New password length must be at least 6 characters long";
+
+"SUCCESS" = "Success";
+"API_FAILURE" = "Error";
+"VALIDATION_FAILURE" = "Oops";
+
+"NEARBY_EXPERIENCES" = "Nearby Experiences";
+"NEARBY_FRIENDS" = "Nearby Friends";
+"NEARBY_EXPERIENCES_SUBTITLE" = "These are the businesses near your location";
+"NEARBY_FRIENDS_SUBTITLE" = "These are the friends near your location";
+"PACKAGES_TAB_TITLE" = "Packages";
+"OBJECTS_TAB_TITLE" = "Objects";
+
+"PROFILE_CELL_TITLE_01" = "Following";
+"PROFILE_CELL_TITLE_02" = "Friends";
+"PROFILE_CELL_TITLE_03" = "Messages";
+"PROFILE_CELL_TITLE_04" = "Invite Friends";
+"PROFILE_CELL_TITLE_05" = "Settings";
+"PROFILE_CELL_TITLE_06" = "Sign Out";
+
+"BUSINESS_DETAIL_GALLERY_TITLE" = "Gallery";
+"BUSINESS_DETAIL_GALLERY_SUBS" = "Explore 360 Degree Photos, Videos & much more";
+"BUSINESS_DETAIL_PACKAGE_TITLE" = "AR Packages";
+"BUSINESS_DETAIL_PACKAGE_SUBS" = "Augmented Reality 3D Products";
+"BUSINESS_DETAIL_OBJECTS_TITLE" = "3D Objects";
+"BUSINESS_DETAIL_OBJECTS_SUBS" = "Augmented Reality 3D Objects";
+"BUSINESS_DETAIL_CONNECT_TITLE" = "Connect";
+"BUSINESS_DETAIL_CONNECT_SUBS" = "Connect with %@ on..";
+"AR_PACKAGE_BY" = "By %@";
+
+"OTP_SENT_TO" = "Please enter OTP sent to %@";
+
+"SETTING_CONTACTS_ONLY" = "Contacts only";
+"SETTING_EVERYONE" = "Everyone";
+"SETTING_EDIT_PROFILE" = "Edit Profile";
+"SETTING_CHANGE_PASSWORD" = "Change Password";
+"SETTING_CONTACT_US" = "Contact Us";
+"SETTING_ABOUT" = "About";
+
+"PROFILE_UPDATED" = "Profile updated successfully";
+"LOGIN_TITLE" = "Login";
+"CONTINUE_TITLE" = "Continue";
+
+"CMStrings_PERMISSION_DENIED" = "Permission Denied";
+"CMStrings_SETTINGS" = "Settings";
+"CMStrings_CANCEL" = "Cancel";
+"CMStrings_MESSAGE" = "Please allow contacts location to send invite to your contacts in device";
+"EMPTY_OTP" = "Please enter OTP";
+
+"LOGOUT_ALERT" = "Do you want to signout from this app?";
+"FORGOT_PSW_SUCCESS" = "Reset password instructions sent to your %@";
+"EMAIL" = "email";
+"PHONE" = "phone number";
+
+"LOC_PERMISSION_DENIED_TITLE" = "Permission Denied";
+"LOC_PERMISSION_DENIED_MESSAGE" = "AE want your current location to give you best results by showing nearby experiences and friends, So Press OK to allow location from settings";
+"OTP_RESENT_TO" = "An OTP resent to %@";
+"VERIFICATION_SUCCESS_EMAIL" = "Verification link sent to your email.";
+"GETTING_LOCATION" = "Please wait for a moment while we are fetching your current location.";
+"GETTING_NEARBY_EXPERIENCES" = "Please wait for a moment while we are getting nearby experiences.";
+"ALLOW_LOCATION" = "Please allow location from settings.";
+"GETTING_FRIENDS" = "Please wait for a moment while we are getting nearby friends.";
+"NO_NEARBY_FRIENDS" = "No nearby friends found.";
+"NO_NEARBY_EXPEREINCES" = "No nearby experiences found.";
+"NO_FRIENDS_GUEST_LOGIN" = "Signup first to see nearby friends.";
+"SETTINGS" = "Settings";
+"SIGNUP" = "Sign Up";
+"GUEST_USER" = "Guest User";
+"RETRY" = "Retry";
+"FOLLOW" = "Follow";
+"UNFOLLOW" = "Unfollow";
+
+"GETTING_CONTACTS" = "Please wait for a moment while we are getting contacts from your phonebook.";
+"SYNCING_CONTACTS" = "Please wait for a moment while we sync your contacts with AE";
+"NO_CONTACTS" = "No contacts in phonebook";
+"CONTACTS_DENIED" = "No contacts fetched,\nPlease allow contacts permission from settings to invite your contacts.";
+"GETTING_FB_CONTACTS" = "Please wait for a moment while we are getting your facebook friends.";
+"SYNC_FB_CONTACTS" = "Please wait for a moment while we sync your facebook friends with AE";
+"NO_FB_FRIENDS" = "No facebook friends";
+"NO_FB_SIGNUP" = "If you signup with facebook then only you will see friends list here.";
+
+"BRANCH" = "Branch";
+"BRANCHES" = "Branches";
+"INVITE" = "Invite";
+"ADD_FRIEND" = "Add friend";
+"REQUESTED" = "Requested";
+"KM_AWAY" = "%@ km away from your current location";
+"SEARCH_SECTION_BUSINESS" = "Businesses";
+"SEARCH_SECTION_FRIENDS" = "Friends";
+"CONTACT_US_MESSAGE_SENT" = "Your message sent successfully";
+"ALL_BRANCHES" = "All Branches";
+"CONTACT_EMAIL" = "E-mail";
+"CONTACT_CALL" = "Call";
+"DELETE" = "Delete";
+"DOWNLOADS_TITLE_NOTIFICATION" = "Augmented Experience";
+"DOWNLOAD_BODY" = "Download completed successfully";
+"DOWNLOAD_ALREADY_EXIST" = "This file already exist in downloads or in queue to complete.";
+"PSW_CHANGE_SUCCESS" = "Your password changed successfully.";
+
+"OBJECT_VIEW_TITLE" = "Experience with";
+"OBJECT_VIEW_OPTION_1" = "Camera";
+"OBJECT_VIEW_OPTION_2" = "3D Scene";
+
+"NAVIGATE_TITLE" = "Navigate with";
+"NAVIGATE_AR" = "Augmented Reality";
+"NAVIGATE_GOOGLE_MAPS" = "Google Maps";
+"DISTANCE_KM" = "%@ Km";
+"DOWNLOAD_FIRST" = "Please download first to experience it";
+"DOWNLOAD" = "Download";
+"DELETE_OBJECT_ALERT" = "Are you sure you want to delete %@?";
+"FOLLOW_BUSINESS_ALERT_FOR_DOWNLOAD" = "Please follow business first to download it's content";
+"FRIEND_REQUEST_TITLE" = "Friend Request";
+"FRIEND_REQUEST_MESSAGE" = "Tap on Accept to become friend with %@";
+"FRIEND_REQUEST_ACCEPT" = "Accept";
+"FRIEND_REQUEST_REJECT" = "Reject";
+"FRIEND_REQUEST_SUCCESS" = "Now you are friend with %@";
+"UNFRIEND" = "Unfriend";
+"SEND" = "Send";
+"SENT_PHOTO" = "Sent a photo";
+"SENT_VIDEO" = "Sent a video";
+"UPLOADING" = "Uploading";
+"BTN_PLAY" = "Play";
+"BTN_VIEW" = "View";
+"UNFRIEND_ALERT" = "Do you want to unfriend %@?";
+"CLEAR_NOTIFICATIONS_ALERT" = "Are you sure you want to clear notifications?";
+"NOTICATION_TITLE" = "Notification";

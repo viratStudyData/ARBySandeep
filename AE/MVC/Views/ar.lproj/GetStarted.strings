@@ -1,0 +1,96 @@
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "2me-QR-33S"; */
+"2me-QR-33S.text" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Open camera"; ObjectID = "3Oj-DR-KCv"; */
+"3Oj-DR-KCv.normalTitle" = "Open camera";
+
+/* Class = "UILabel"; text = "Select a password to secure your account"; ObjectID = "4Mx-nH-S8B"; */
+"4Mx-nH-S8B.text" = "Select a password to secure your account";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "6x9-Ni-tkO"; */
+"6x9-Ni-tkO.text" = "Login";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "85T-h5-IBh"; */
+"85T-h5-IBh.text" = "Already have an account?";
+
+/* Class = "UIButton"; normalTitle = "Continue with Facebook"; ObjectID = "Alv-Oy-H9Q"; */
+"Alv-Oy-H9Q.normalTitle" = "Continue with Facebook";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Ehw-j7-Xlw"; */
+"Ehw-j7-Xlw.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Finish"; ObjectID = "LgX-PL-NHw"; */
+"LgX-PL-NHw.normalTitle" = "Finish";
+
+/* Class = "UIButton"; normalTitle = "🇮🇳+91"; ObjectID = "OZW-Xq-gIF"; */
+"OZW-Xq-gIF.normalTitle" = "🇮🇳+91";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "Qd2-ZE-mFy"; */
+"Qd2-ZE-mFy.text" = "Login";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Qez-fH-Ztk"; */
+"Qez-fH-Ztk.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "  Back"; ObjectID = "QtT-wh-YTh"; */
+"QtT-wh-YTh.normalTitle" = "  Back";
+
+/* Class = "UITextField"; placeholder = "Email / Phone"; ObjectID = "Rdm-4I-Hue"; */
+"Rdm-4I-Hue.placeholder" = "Email / Phone";
+
+/* Class = "UIButton"; normalTitle = "  Back"; ObjectID = "VlN-lV-dLs"; */
+"VlN-lV-dLs.normalTitle" = "  Back";
+
+/* Class = "UIButton"; normalTitle = "  Back"; ObjectID = "WnI-cS-dk9"; */
+"WnI-cS-dk9.normalTitle" = "  Back";
+
+/* Class = "UILabel"; text = "AE"; ObjectID = "Zw2-DX-DIx"; */
+"Zw2-DX-DIx.text" = "AE";
+
+/* Class = "UILabel"; text = "Login to your account with your details"; ObjectID = "c87-C9-dp8"; */
+"c87-C9-dp8.text" = "Login to your account with your details";
+
+/* Class = "UILabel"; text = "By signing in you agree to our Terms and Conditions"; ObjectID = "djI-yF-3eb"; */
+"djI-yF-3eb.text" = "By signing in you agree to our Terms and Conditions";
+
+/* Class = "UILabel"; text = "Profile Picture"; ObjectID = "eKh-M1-0dX"; */
+"eKh-M1-0dX.text" = "Profile Picture";
+
+/* Class = "UITextField"; placeholder = "Email / Phone"; ObjectID = "iEO-Vc-1hz"; */
+"iEO-Vc-1hz.placeholder" = "Email / Phone";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "ik6-Js-uWi"; */
+"ik6-Js-uWi.text" = "Don't have an account?";
+
+/* Class = "UILabel"; text = "Set Password"; ObjectID = "jhp-vs-wae"; */
+"jhp-vs-wae.text" = "Set Password";
+
+/* Class = "UILabel"; text = "Select a Photo for your Profile"; ObjectID = "jpx-mc-vsk"; */
+"jpx-mc-vsk.text" = "Select a Photo for your Profile";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "jsS-2Y-EkG"; */
+"jsS-2Y-EkG.normalTitle" = "Get Started";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "kRh-qN-vlK"; */
+"kRh-qN-vlK.placeholder" = "Confirm Password";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password "; ObjectID = "kYD-mE-5Ip"; */
+"kYD-mE-5Ip.normalTitle" = "Forgot Password ";
+
+/* Class = "UIButton"; normalTitle = "🇮🇳+91"; ObjectID = "kcP-L9-R4D"; */
+"kcP-L9-R4D.normalTitle" = "🇮🇳+91";
+
+/* Class = "UIButton"; normalTitle = "  Back"; ObjectID = "pUq-xi-Vvd"; */
+"pUq-xi-Vvd.normalTitle" = "  Back";
+
+/* Class = "UIButton"; normalTitle = "Select from gallery"; ObjectID = "pml-ep-3Kv"; */
+"pml-ep-3Kv.normalTitle" = "Select from gallery";
+
+/* Class = "UILabel"; text = "Sign up with your Email address or Phone"; ObjectID = "qVG-ir-QlQ"; */
+"qVG-ir-QlQ.text" = "Sign up with your Email address or Phone";
+
+/* Class = "UIButton"; normalTitle = "Skip  "; ObjectID = "qZa-nu-dwd"; */
+"qZa-nu-dwd.normalTitle" = "Skip  ";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "tui-kd-BeW"; */
+"tui-kd-BeW.text" = "Sign Up";

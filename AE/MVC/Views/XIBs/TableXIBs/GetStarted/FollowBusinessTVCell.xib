@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+        <array key="SF-Pro-Text-Medium.otf">
+            <string>SFProText-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FollowBusinessTVCell" rowHeight="64" id="KGk-i7-Jjw" customClass="FollowBusinessTVCell" customModule="AE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9vj-uR-AN0">
+                        <rect key="frame" x="24" y="12" width="40" height="40"/>
+                        <color key="backgroundColor" name="buttonBlue"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="N6Z-xz-7tF"/>
+                            <constraint firstAttribute="height" constant="40" id="e4O-KO-fsW"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYa-pV-TCa">
+                        <rect key="frame" x="256" y="20" width="80" height="24"/>
+                        <color key="backgroundColor" name="buttonBlue"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="Mrh-uQ-Ixx"/>
+                            <constraint firstAttribute="height" constant="24" id="ngP-3e-SwG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                        <state key="normal" title="Follow">
+                            <color key="titleColor" name="textWhite"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="btnFollowAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="I5o-Lw-Hwt"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tesla Motors." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ik5-uA-MfX">
+                        <rect key="frame" x="76" y="14" width="168" height="17"/>
+                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="14"/>
+                        <color key="textColor" name="textBlack90"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Electric Cars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7W-EZ-VFh">
+                        <rect key="frame" x="76" y="33" width="168" height="14.5"/>
+                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                        <color key="textColor" name="textBlack40"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="e7W-EZ-VFh" firstAttribute="top" secondItem="ik5-uA-MfX" secondAttribute="bottom" constant="2" id="01F-vc-Atj"/>
+                    <constraint firstItem="e7W-EZ-VFh" firstAttribute="trailing" secondItem="ik5-uA-MfX" secondAttribute="trailing" id="6wW-fP-Bgr"/>
+                    <constraint firstItem="ik5-uA-MfX" firstAttribute="top" secondItem="9vj-uR-AN0" secondAttribute="top" constant="2" id="BVi-vW-imj"/>
+                    <constraint firstItem="ik5-uA-MfX" firstAttribute="leading" secondItem="9vj-uR-AN0" secondAttribute="trailing" constant="12" id="HXR-Mt-t4J"/>
+                    <constraint firstAttribute="bottom" secondItem="9vj-uR-AN0" secondAttribute="bottom" constant="11.5" id="KvV-Vf-Rzj"/>
+                    <constraint firstItem="9vj-uR-AN0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="24" id="RWk-Tk-jeU"/>
+                    <constraint firstItem="e7W-EZ-VFh" firstAttribute="leading" secondItem="ik5-uA-MfX" secondAttribute="leading" id="VRy-lk-G5R"/>
+                    <constraint firstItem="fYa-pV-TCa" firstAttribute="leading" secondItem="ik5-uA-MfX" secondAttribute="trailing" constant="12" id="Zan-M6-3Qd"/>
+                    <constraint firstItem="9vj-uR-AN0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="epu-0M-G6o"/>
+                    <constraint firstItem="fYa-pV-TCa" firstAttribute="centerY" secondItem="9vj-uR-AN0" secondAttribute="centerY" id="tbl-Vg-jON"/>
+                    <constraint firstAttribute="trailing" secondItem="fYa-pV-TCa" secondAttribute="trailing" constant="24" id="wT1-C5-B4p"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnFollow" destination="fYa-pV-TCa" id="EwJ-MJ-lJw"/>
+                <outlet property="btnWidth" destination="Mrh-uQ-Ixx" id="bTN-KO-O1c"/>
+                <outlet property="imgView" destination="9vj-uR-AN0" id="6dd-Rm-uV1"/>
+                <outlet property="lblSubTitle" destination="e7W-EZ-VFh" id="CXx-Wq-SUi"/>
+                <outlet property="lblTitle" destination="ik5-uA-MfX" id="trF-9v-DpF"/>
+            </connections>
+            <point key="canvasLocation" x="164.80000000000001" y="116.04197901049476"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="buttonBlue">
+            <color red="0.24313725490196078" green="0.71764705882352942" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textBlack40">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textBlack90">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.89999997615814209" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
